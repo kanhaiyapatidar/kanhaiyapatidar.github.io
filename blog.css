@@ -1,0 +1,16 @@
+article {
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+header {
+    background-color: yellow;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+article:hover {
+    border: solid black;
+}
