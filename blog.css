@@ -1,3 +1,10 @@
+body{
+    max-width: 960px;
+    margin: auto;
+}
+a{
+    font-size: 25px;
+}
 article {
     border: 2px solid grey;
     border-radius: 8px;
