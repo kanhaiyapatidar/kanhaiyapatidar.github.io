@@ -21,3 +21,16 @@ footer {
 article:hover {
     border: solid black;
 }
+h1{
+    font-family: fantasy;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
