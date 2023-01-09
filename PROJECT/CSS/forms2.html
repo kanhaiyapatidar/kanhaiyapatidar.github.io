@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            width: 800px;
+            height: 600px;
+            margin: auto;
+        }
+        img{
+            width: 400px;
+            height: 550px;
+            
+        }
+        #img{
+            display: inline-block;
+            position: relative;
+        }
+        h4{
+            color: white;
+            position: absolute;
+            top: 200px;
+            right: 90px;
+            font-size: 30px;
+
+        }
+        h6{
+            color: white;
+            position: absolute;
+            top: 240px;
+            right: 60px;
+            font-size: 22px;
+        }
+        #form{
+            float: right;
+            height: 600px;
+            width: 300px;
+        }
+        #main form{
+        
+           margin-top: 25px;
+        }
+        #main form > input{
+            width: 300px;
+            height: 30px;
+            border: 0px;
+        }
+        #btn1{
+            background: linear-gradient(orange,rgb(82, 60, 20));
+            color: white;
+            width:100px;
+            height: 40px;
+            border-radius: 15px;
+            margin-top: 40px;
+            cursor: pointer;
+            
+        }
+        #btn2{
+            border: 0px;
+            margin-left: 40px;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+       
+    </style>
+</head>
+<body>
+    <a href="../projects.html">BACK</a>
+    <div id="main">
+    <div id="img">
+        <img src="./forms2.jpg">
+        <h4>Wellcome To M15.</h4>
+        <h6>are you ready to join the elite?</h6>
+    </div>
+    <div id="form">
+        <form id="main form">
+             <label for="name">USERNAME</label>
+            <input type="text"name="name" id="name" required placeholder="Name"><hr><br><br>
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" required placeholder="Email"><hr><br><br>
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" required placeholder="password"><hr><br><br>
+            <label for="password">REPEAT PASSWORD</label>
+            <input type="password" name="password" id="password" required placeholder=" Repeat password"><hr>
+            <button id="btn1">REGISTER</button>
+            <button id="btn2">I am already a member</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

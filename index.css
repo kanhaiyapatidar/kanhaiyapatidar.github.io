@@ -1,3 +1,20 @@
+@media (max-width: 600px) {
+    body{
+        width: 400px;
+    }
+    h1 {
+        font-size: 12px;
+    }
+    #search {
+        margin: 5px;
+    }
+    #kpi{
+        margin-left: 200px
+    }
+    
+  }
+  
+
 body{
     max-width: 960px;
     margin: auto;
