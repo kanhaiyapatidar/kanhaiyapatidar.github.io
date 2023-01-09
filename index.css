@@ -8,9 +8,7 @@
     #search {
         margin: 5px;
     }
-    #kpi{
-        margin-left: 200px
-    }
+    
     
   }
   
@@ -19,14 +17,7 @@ body{
     max-width: 960px;
     margin: auto;
 }
-#kpi{
-    width: 100px;
-    height: 120px;
-    border-radius: 60px;
-    position: fixed;
-    bottom: 70px;
-    right: 250px;
-}
+
 #img {
     border: 2px solid black ;
     border-radius: 10px;
